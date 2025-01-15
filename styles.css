@@ -26,21 +26,23 @@ h2 {
 .hola {
 	margin: 102px auto 0 auto;
 	width: 767px;
-	padding: 0 144px;
+	padding: 0 144px 30px 144px;
 	text-align: center;
 	background: linear-gradient(to top right, #122f5a, #1b68c5);
 	border: 8px solid var(--beige);
 	border-radius: 60px;
+	box-shadow: var(--beige) 0 0 30px;
 }
 
 .foto-perfil {
 	background: var(--beige);
 	width: fit-content;
 	padding: 7px;
-	margin: -110px auto 15px auto;
+	margin: -110px auto 17px auto;
 	border-radius: 50%;
+	box-shadow: var(--beige) 0 0 30px;
 }
-.hola img {
+.foto-perfil img {
 	display: block;
 	border-radius: 50%;
 }
@@ -56,6 +58,15 @@ h1 {
 }
 
 .hola p {
-	margin-top: 10px;
+	margin: 15px 0 30px 0;
 	text-align: left;
+	position: relative;
+	left: 10px;
+}
+
+.hola ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 15px;
 }
