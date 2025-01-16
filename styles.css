@@ -10,13 +10,15 @@
 
 body {
 	font-family: "Poppins", serif;
-	background-color: darkslateblue;
+	background: darkslateblue;
 	color: var(--beige);
 }
 
 h2 {
 	font-weight: 400;
 	font-family: "Playwrite NO";
+	text-align: center;
+	text-shadow: var(--beige) 0 0 10px;
 }
 
 
@@ -57,6 +59,7 @@ h1 {
 .hola h2 {
 	font-family: "Poppins";
 	font-size: 22px;
+	text-shadow: none;
 }
 
 .hola p {
