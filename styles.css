@@ -16,6 +16,7 @@ body {
 
 h2 {
 	font-weight: 400;
+	font-family: "Playwrite NO";
 }
 
 
@@ -54,6 +55,7 @@ h1 {
 }
 
 .hola h2 {
+	font-family: "Poppins";
 	font-size: 22px;
 }
 
@@ -69,4 +71,13 @@ h1 {
 	display: flex;
 	justify-content: center;
 	gap: 15px;
+}
+
+
+
+
+/* -- -- -- Proyectos -- -- -- */
+
+.proyectos {
+
 }
