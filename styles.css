@@ -1,5 +1,6 @@
 :root {
 	--beige: #f1e3c4;
+	--blue-gradient: linear-gradient(to top right, #122f5a, #1b68c5);
 }
 
 * {
@@ -31,7 +32,7 @@ h2 {
 	width: 767px;
 	padding: 0 144px 30px 144px;
 	text-align: center;
-	background: linear-gradient(to top right, #122f5a, #1b68c5);
+	background: var(--blue-gradient);
 	border: 8px solid var(--beige);
 	border-radius: 60px;
 	box-shadow: var(--beige) 0 0 30px;
@@ -80,7 +81,32 @@ h1 {
 
 
 /* -- -- -- Proyectos -- -- -- */
+/* Sigue ajustar los h2 que queden bien los text-shadow */
 
-.proyectos {
+.proyecto {
+	width: 860px;
+	margin: auto;
+	display: flex;
+	flex-flow: row-reverse;
+	justify-content: space-between;
+}
 
+.proyecto .detalles {
+	width: 500px;
+}
+
+.proyecto .padding-left {
+	padding-left: 30px;
+}
+
+.proyecto ul {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+
+.proyecto li {
+	background: var(--blue-gradient);
+	padding: 5px 15px;
+	border-radius: 18px;
 }
