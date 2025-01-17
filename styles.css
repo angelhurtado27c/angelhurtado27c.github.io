@@ -1,5 +1,6 @@
 :root {
 	--beige: #f1e3c4;
+	--beige-transparent: #f1e3c4d0;
 	--blue-gradient: linear-gradient(to top right, #122f5a, #1b68c5);
 }
 
@@ -15,11 +16,23 @@ body {
 	color: var(--beige);
 }
 
+p {
+	font-size: 18px;
+}
+
 h2 {
 	font-weight: 400;
 	font-family: "Playwrite NO";
 	text-align: center;
 	text-shadow: var(--beige) 0 0 10px;
+}
+
+h3 {
+	font-family: "Playwrite NO";
+	font-weight: 400;
+	font-size: 24px;
+	text-shadow: var(--beige) 0 0 10px;
+	text-shadow: var(--beige-transparent) 0 0 10px;
 }
 
 
@@ -102,11 +115,28 @@ h1 {
 .proyecto ul {
 	list-style: none;
 	display: flex;
-	gap: 20px;
+	gap: 10px;
+	margin-left: -7px;
 }
 
 .proyecto li {
 	background: var(--blue-gradient);
 	padding: 5px 15px;
 	border-radius: 18px;
+}
+
+.proyecto .enlaces a {
+	font-size: 22px;
+	display: inline-block;
+	color: var(--beige);
+	text-decoration: none;
+	border: 1px solid var(--beige);
+	padding: 5px 20px;
+	border-radius: 22px;
+	transition: all ease .3s;
+}
+
+.proyecto .enlaces a:hover {
+	background: var(--beige);
+	color: #433126;
 }
